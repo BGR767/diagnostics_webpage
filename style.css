@@ -89,19 +89,48 @@ header {
 }
 
 /* About */
+.about {
+    background: #ffffff;
+}
+
+/* Main container */
 .about-content {
     display: flex;
-    gap: 40px;
-    align-items: stretch;
+    gap: 50px;
+    align-items: center;
 }
 
+/* Image styling */
 .about-content img {
-    width: 40%;
-    border-radius: 8px;
+    width: 45%;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
+/* Text container */
 .about-text {
-    width: 40%;
+    width: 55%;
+    background: #f6f9fc;          /* light card background */
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* "About Us" pill heading */
+.about-text h2 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px 24px;
+    background: #c9d6e8;          /* soft blue pill */
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+/* Paragraph text */
+.about-text p {
+    font-size: 18px;
+    line-height: 1.9;
+    color: #222;
 }
 
 /* Products */
@@ -177,6 +206,7 @@ footer {
         height: 50vh;
     }
 }
+
 
 
 

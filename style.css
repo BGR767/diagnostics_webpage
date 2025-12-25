@@ -91,8 +91,8 @@ header {
 /* About */
 .about-content {
     display: flex;
-    gap: 30px;
-    align-items: start;
+    gap: 40px;
+    align-items: stretch;
 }
 
 .about-content img {
@@ -177,6 +177,7 @@ footer {
         height: 50vh;
     }
 }
+
 
 
 

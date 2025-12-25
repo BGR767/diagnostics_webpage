@@ -101,7 +101,7 @@ header {
 }
 
 .about-text {
-    width: 60%;
+    width: 40%;
 }
 
 /* Products */
@@ -177,5 +177,6 @@ footer {
         height: 50vh;
     }
 }
+
 
 

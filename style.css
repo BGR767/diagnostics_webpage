@@ -175,18 +175,29 @@ footer {
         display: none;
     }
 
-    .about-content,
-    .product {
+    .about-content {
         flex-direction: column;
-        text-align: center;
+        gap: 30px;
     }
 
-    .about-content img,
-    .about-text,
-    .product img {
+    .about-content img {
         width: 100%;
     }
 
+    .about-text {
+        width: 100%;
+        padding: 25px;
+        text-align: left;
+    }
+
+    .about-text h2 {
+        font-size: 26px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
     .hero-text {
         position: absolute;
         top: auto;
@@ -206,6 +217,7 @@ footer {
         height: 50vh;
     }
 }
+
 
 
 
